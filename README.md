@@ -37,4 +37,5 @@ OSX Agent to handle irssi notifications on a remote server
 `ssh -R 31337:localhost:31337 username@server`
 2. move the file `iNotify.pl` to `~/.irssi/scripts/`
 3. load the plugin
+`/script load iNotify.pl` 
 
