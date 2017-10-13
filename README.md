@@ -28,7 +28,9 @@ OSX Agent to handle irssi notifications on a remote server
 </dict>
 </plist>
 ```
-4. load the agent to the user account:
+4. fix permission
+``` chown youruser:wheel /absolute/path/to/inotify_agent```
+5. load the agent to the user account:
 `launchctl load -F ~/Library/LaunchAgents/com.ntrippar.inotify.plist`
 
 
